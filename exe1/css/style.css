@@ -1,0 +1,122 @@
+*{ 
+    /* box-sizing: border-box; */
+    padding: 0;
+
+ }
+:root {
+    font-size: 100%;
+    font-family: Helvetica;
+}
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    width: 100%;
+    height: 85%;
+    justify-content: center;
+    align-items: center;
+}
+a.go:hover{
+    padding:13px;
+    background-color:#F9A825;
+    border-radius: 20px;
+}
+header, main, footer{
+    width: 100%;
+    margin:auto;
+}
+header#top-header{
+    height: 40px;
+    background-color:#212121;
+
+}
+.flex{
+    display: flex;
+}
+
+
+header#top-header h1, header#top-header nav{
+    width: 100%;
+}
+header#top-header nav{
+    background-color: #212121;
+}
+header#top-header h1{
+    background-color:#212121;
+    align-items:center;
+    color:white;
+    justify-content:flex-start;
+
+}
+header#top-header nav#menu ul#list-menu {
+    width: 100%;
+    justify-content: flex-end;
+    /* background-color: blue; */
+}
+nav#menu ul#list-menu li.item {
+    /* background-color:#212121; */
+    /* width:120px; */
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+section#section-cards {
+    margin-top: 20px;
+    padding: 80px 0 80px 0;
+    width: 100%;
+    height: 320px;
+    background-color:white;
+}
+section#section-cards div.card {
+    background-color:white;
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    border-right-style: dotted;
+    border-right-width:1px;
+    font-size: 12px;
+    text-align: center;
+    padding: 50px 0px 20px 100px;
+
+
+}
+section#section-cards div.cardInput {
+    margin:10px auto;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    box-sizing: auto;
+    background-color:white;
+    text-align: center;
+}
+label{
+    padding: 2px;
+    font-size:14px;
+    display:block;
+}
+footer {
+    /* width: 100%;
+	height: 100px; */
+
+	bottom: 0;
+	left: 0;
+    background-color:#212121 ;
+    font-size: 16px; 
+    flex-shrink: 0;
+    font-family: Helvetica;
+    padding-bottom: 100px;
+    /* margin: 120px auto;
+    height: 80px;
+    color: white;
+    align-items:center;
+    text-align: center;
+    font-size: 16px;
+    background-color:#212121 ;
+    flex-shrink: 0;
+    position: absolute;
+    bottom:0;
+    width: 100%; */
+}
+
+
